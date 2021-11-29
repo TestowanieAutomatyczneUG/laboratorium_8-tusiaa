@@ -21,6 +21,3 @@ class PasswordTest(unittest.TestCase):
         
     def tearDown(self):
         self.temp = None 
-
-if __name__ == '__main__':
-    unittest.main()

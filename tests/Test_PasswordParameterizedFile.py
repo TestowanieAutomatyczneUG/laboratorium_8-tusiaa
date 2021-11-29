@@ -16,6 +16,3 @@ class PasswordParameterizedFile(unittest.TestCase):
             self.assertEqual(tmpPassword.ValidPassword(password), result)
       fileTest.close()
 
-
-if __name__ == '__main__':
-    unittest.main()

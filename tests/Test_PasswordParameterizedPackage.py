@@ -30,6 +30,3 @@ class PasswordParameterizedPackage2(unittest.TestCase):
     def test_two_parameterized(self):
         self.assertEqual(self.tmp.ValidPassword(self.password), self.expected)
 
-
-if __name__ == '__main__':
-    unittest.main()
