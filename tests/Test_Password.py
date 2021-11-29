@@ -1,5 +1,5 @@
 import unittest
-from Zad1.Password import *
+from src.Zad1.Password import *
 
 class PasswordTest(unittest.TestCase):
     
